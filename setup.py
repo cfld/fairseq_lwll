@@ -168,7 +168,7 @@ def do_setup(package_data):
                 "tests",
                 "tests.*",
             ]
-        ) + ["fairseq.model_parallel.megatron.mpu"],
+        ),
         package_data=package_data,
         ext_modules=extensions,
         test_suite="tests",
